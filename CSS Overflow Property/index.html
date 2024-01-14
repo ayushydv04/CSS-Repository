@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow</title>
+
+    <style>
+        .div{
+            border: 2px solid black;
+            width: 20vw;
+            height: 10vh;
+            overflow: auto;
+            /* white-space: nowrap; */   /* everything in horizontal*/
+
+
+            overflow: hidden;
+            text-overflow: ellipsis;   /* Shows Text in... this form after overflow */
+
+            overflow-x: hidden;    /*Seperarely for x-axis*/
+            overflow-y: scroll;    /*Seperarely for y-axis*/
+
+            overflow: hidden scroll;   /*Shorthand for X-axis and Y-axis respectively*/
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="div">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium officia cupiditate atque, sunt vero, rerum sequi odit esse distinctio provident ab doloribus necessitatibus assumenda dolores ut eligendi quam accusamus eaque repudiandae quasi earum facere. Laborum aliquid accusamus, facilis nemo perferendis assumenda tempore. Nulla veritatis cupiditate quis. Odio facilis deleniti error debitis, cupiditate iusto magnam tempore veniam repudiandae perspiciatis corrupti aliquam quas beatae voluptates iste ducimus amet consequatur ut vel fugiat natus minus quos. Fuga nostrum consectetur tempora distinctio culpa magnam aperiam eligendi tempore, fugiat deserunt qui similique voluptas minima dicta ad ipsa! Sit iste laborum accusantium. Modi molestiae a maiores doloribus veritatis ipsam magni illo error eos harum voluptatibus consectetur possimus repudiandae facilis repellat vitae iusto, veniam provident, animi maxime! Quo, corrupti? Facere, soluta nam eligendi mollitia fugit quia nihil, similique aspernatur provident sequi placeat modi itaque hic voluptas amet odio aperiam rem quos expedita! Quam iusto nisi libero?
+    </div>
+</body>
+</html>

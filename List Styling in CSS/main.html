@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Styling</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav{
+            box-sizing: border-box;
+            border: 2px solid red;
+            margin: auto;
+            width: 20vw;
+
+        }
+        div ol{
+            display: flex;
+            /* margin: 10px; */
+            /* padding: 10px; */
+        }
+
+        div ol li{
+            list-style-type: none;
+            padding: 20px;
+            /* margin: 10px; */
+        }
+
+        div > ol > li:hover{
+            background-color: aqua;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ol>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ol>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid black;
+            height: 413px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            margin-left: 35px;
+        }
+
+
+        .box1 {
+            background-color: aqua;
+            position: sticky;
+            top: 1px;
+            height: 27px;
+            /* margin: 0; */
+            /* padding: 0; */
+            /* width: 100%; */
+            /* position: relative; */
+            /* z-index: 1; */
+            /* position: absolute; */
+            /* top: 2px; */
+            /* left: 3px; */
+        }
+
+        .box2 {
+            background-color: aquamarine;
+            /* position: relative; */
+            /* bottom: 50px; */
+            /* left: 50px; */
+        }
+
+        .box3 {
+            background-color: blueviolet;
+            /* position: fixed; */
+            /* top: 0px; */
+            /* height: 27px; */
+            
+        }
+
+        .box4 {
+            background-color: antiquewhite;
+        }
+
+
+        .parent {
+            border: 2px solid black;
+            margin: 34px;
+            padding: 43px;
+            /* min-height: 100vh; */
+            /* position: absolute; */
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+
+</html>
